@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Session automation suite">
+
+
+
+  <test name="Different testing Feauture Test" >
+    <classes>
+      <class name="com.test.ExceptionTimeOut"/>
+      <class name="com.test.GoogleTest"/>
+      <class name="com.test.InvocationCount"/>
+      <class name="com.test.TestNgBasics"/>
+      <class name="com.test.TestNgFeatures"/>
+      <class name="com.test.TestNgforDropDown"/>
+      <class name="com.test.ValidationsTestNG"/>
+    </classes>
+    
+ </test>
+ 
+ 
+ </suite>

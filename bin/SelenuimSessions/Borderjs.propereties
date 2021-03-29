@@ -1,0 +1,11 @@
+         //SCENARIO 2 :we will draw a border around login page
+		WebElement loginBtn = driver.findElement(By.xpath("//div[@class='ui fluid large blue submit button']"));
+		drawBorder(loginBtn,driver);
+		
+	}
+	public static void drawBorder(WebElement element,WebDriver driver) {
+		
+		//JavascriptExecutor js =(JavascriptExecutor) driver;
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].style.border='3px solid red'", element);
+	}
